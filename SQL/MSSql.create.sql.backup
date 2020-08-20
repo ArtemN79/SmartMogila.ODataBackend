@@ -6,13 +6,13 @@ CREATE TABLE [Кладбище] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [Название] string200  NULL,
+	 [Название] VARCHAR(255)  NULL,
 
-	 [Адрес] string500  NULL,
+	 [Адрес] VARCHAR(255)  NULL,
 
 	 [Площадь] FLOAT  NULL,
 
-	 [ФиоРуководителя] string200  NULL,
+	 [ФиоРуководителя] VARCHAR(255)  NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 
@@ -23,11 +23,11 @@ CREATE TABLE [Захоронение] (
 
 	 [ИнвНомер] INT  NULL,
 
-	 [ФИО] string200  NULL,
+	 [ФИО] VARCHAR(255)  NULL,
 
-	 [ДатаРождения] datetime  NULL,
+	 [ДатаРождения] DATETIME  NULL,
 
-	 [ДатаСмерти] datetime  NULL,
+	 [ДатаСмерти] DATETIME  NULL,
 
 	 [СостояниеЗахоронения] VARCHAR(7)  NULL,
 
@@ -35,7 +35,7 @@ CREATE TABLE [Захоронение] (
 
 	 [НаличиеОграды] BIT  NULL,
 
-	 [Фото] webfile  NULL,
+	 [Фото] NVARCHAR(MAX)  NULL,
 
 	 [КоординатыЗахоронения] FLOAT  NULL,
 
@@ -48,7 +48,7 @@ CREATE TABLE [Квартал] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [Номер] string20  NULL,
+	 [Номер] VARCHAR(255)  NULL,
 
 	 [Площадь] FLOAT  NULL,
 
