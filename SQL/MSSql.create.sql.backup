@@ -29,15 +29,15 @@ CREATE TABLE [Захоронение] (
 
 	 [ДатаСмерти] DATETIME  NULL,
 
-	 [СостояниеЗахоронения] VARCHAR(7)  NULL,
-
-	 [СостояниеНадгробия] VARCHAR(7)  NULL,
-
 	 [НаличиеОграды] BIT  NULL,
 
 	 [Фото] NVARCHAR(MAX)  NULL,
 
-	 [КоординатыЗахоронения] FLOAT  NULL,
+	 [СостЗахоронения] VARCHAR(7)  NULL,
+
+	 [СостНадгробия] VARCHAR(7)  NULL,
+
+	 [Координаты] FLOAT  NULL,
 
 	 [Квартал_m0] UNIQUEIDENTIFIER  NOT NULL,
 
