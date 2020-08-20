@@ -33,11 +33,11 @@ CREATE TABLE [Захоронение] (
 
 	 [Фото] NVARCHAR(MAX)  NULL,
 
-	 [СостЗахоронения] VARCHAR(7)  NULL,
+	 [СостояниеЗахоронения] VARCHAR(7)  NULL,
 
-	 [СостНадгробия] VARCHAR(7)  NULL,
+	 [СостояниеНадгробия] VARCHAR(7)  NULL,
 
-	 [Координаты] FLOAT  NULL,
+	 [КоординатыЗахоронения] FLOAT  NULL,
 
 	 [Квартал_m0] UNIQUEIDENTIFIER  NOT NULL,
 

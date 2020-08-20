@@ -62,13 +62,13 @@ namespace IIS.SmartMogila
         
         private System.DateTime fДатаСмерти;
         
-        private IIS.SmartMogila.СостояниеЗахоронения fСостояниеЗахоронения;
-        
-        private IIS.SmartMogila.СостояниеЗахоронения fСостояниеНадгробия;
-        
         private bool fНаличиеОграды = false;
         
         private ICSSoft.STORMNET.UserDataTypes.WebFile fФото;
+        
+        private IIS.SmartMogila.СостояниеЗахоронения fСостояниеЗахоронения;
+        
+        private IIS.SmartMogila.СостояниеЗахоронения fСостояниеНадгробия;
         
         private double fКоординатыЗахоронения;
         
@@ -205,68 +205,6 @@ namespace IIS.SmartMogila
         }
         
         /// <summary>
-        /// СостояниеЗахоронения.
-        /// </summary>
-        //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения CustomAttributes)
-
-        //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения CustomAttributes)
-        public virtual IIS.SmartMogila.СостояниеЗахоронения СостояниеЗахоронения
-        {
-            get
-            {
-                //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения Get start)
-
-                //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения Get start)
-                IIS.SmartMogila.СостояниеЗахоронения result = this.fСостояниеЗахоронения;
-                //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения Get end)
-
-                //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения Get end)
-                return result;
-            }
-            set
-            {
-                //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения Set start)
-
-                //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения Set start)
-                this.fСостояниеЗахоронения = value;
-                //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения Set end)
-
-                //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения Set end)
-            }
-        }
-        
-        /// <summary>
-        /// СостояниеНадгробия.
-        /// </summary>
-        //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия CustomAttributes)
-
-        //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия CustomAttributes)
-        public virtual IIS.SmartMogila.СостояниеЗахоронения СостояниеНадгробия
-        {
-            get
-            {
-                //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия Get start)
-
-                //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия Get start)
-                IIS.SmartMogila.СостояниеЗахоронения result = this.fСостояниеНадгробия;
-                //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия Get end)
-
-                //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия Get end)
-                return result;
-            }
-            set
-            {
-                //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия Set start)
-
-                //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия Set start)
-                this.fСостояниеНадгробия = value;
-                //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия Set end)
-
-                //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия Set end)
-            }
-        }
-        
-        /// <summary>
         /// НаличиеОграды.
         /// </summary>
         //  *** Start programmer edit section *** (Захоронение.НаличиеОграды CustomAttributes)
@@ -325,6 +263,68 @@ namespace IIS.SmartMogila
                 //  *** Start programmer edit section *** (Захоронение.Фото Set end)
 
                 //  *** End programmer edit section *** (Захоронение.Фото Set end)
+            }
+        }
+        
+        /// <summary>
+        /// СостояниеЗахоронения.
+        /// </summary>
+        //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения CustomAttributes)
+
+        //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения CustomAttributes)
+        public virtual IIS.SmartMogila.СостояниеЗахоронения СостояниеЗахоронения
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения Get start)
+
+                //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения Get start)
+                IIS.SmartMogila.СостояниеЗахоронения result = this.fСостояниеЗахоронения;
+                //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения Get end)
+
+                //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения Set start)
+
+                //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения Set start)
+                this.fСостояниеЗахоронения = value;
+                //  *** Start programmer edit section *** (Захоронение.СостояниеЗахоронения Set end)
+
+                //  *** End programmer edit section *** (Захоронение.СостояниеЗахоронения Set end)
+            }
+        }
+        
+        /// <summary>
+        /// СостояниеНадгробия.
+        /// </summary>
+        //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия CustomAttributes)
+
+        //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия CustomAttributes)
+        public virtual IIS.SmartMogila.СостояниеЗахоронения СостояниеНадгробия
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия Get start)
+
+                //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия Get start)
+                IIS.SmartMogila.СостояниеЗахоронения result = this.fСостояниеНадгробия;
+                //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия Get end)
+
+                //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия Set start)
+
+                //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия Set start)
+                this.fСостояниеНадгробия = value;
+                //  *** Start programmer edit section *** (Захоронение.СостояниеНадгробия Set end)
+
+                //  *** End programmer edit section *** (Захоронение.СостояниеНадгробия Set end)
             }
         }
         
